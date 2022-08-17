@@ -1,0 +1,142 @@
+ohup: ignoring input
+04/02/2022 21:31:22 - INFO - __main__ - Distributed environment: NO
+Num processes: 1
+Process index: 0
+Local process index: 0
+Device: cuda
+Use FP16 precision: False
+
+loading configuration file https://huggingface.co/google/t5-v1_1-large/resolve/main/config.json from cache at /home/tzc/.cache/huggingface/transformers/f3629832deaa00e53f3ef405be5a19dbf5688115a8e99e7aa69689f44bdb2174.546c1aed6c9a26bb0c3e81b10b9a041fa66653af459263294758f5b2a5d05935
+Model config T5Config {
+  "_name_or_path": "google/t5-v1_1-large",
+  "architectures": [
+    "T5ForConditionalGeneration"
+  ],
+  "d_ff": 2816,
+  "d_kv": 64,
+  "d_model": 1024,
+  "decoder_start_token_id": 0,
+  "dropout_rate": 0.1,
+  "eos_token_id": 1,
+  "feed_forward_proj": "gated-gelu",
+  "initializer_factor": 1.0,
+  "is_encoder_decoder": true,
+  "layer_norm_epsilon": 1e-06,
+  "model_type": "t5",
+  "num_decoder_layers": 24,
+  "num_heads": 16,
+  "num_layers": 24,
+  "output_past": true,
+  "pad_token_id": 0,
+  "relative_attention_max_distance": 128,
+  "relative_attention_num_buckets": 32,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.18.0.dev0",
+  "use_cache": true,
+  "vocab_size": 32128
+}
+
+loading configuration file https://huggingface.co/google/t5-v1_1-large/resolve/main/config.json from cache at /home/tzc/.cache/huggingface/transformers/f3629832deaa00e53f3ef405be5a19dbf5688115a8e99e7aa69689f44bdb2174.546c1aed6c9a26bb0c3e81b10b9a041fa66653af459263294758f5b2a5d05935
+Model config T5Config {
+  "_name_or_path": "google/t5-v1_1-large",
+  "architectures": [
+    "T5ForConditionalGeneration"
+  ],
+  "d_ff": 2816,
+  "d_kv": 64,
+  "d_model": 1024,
+  "decoder_start_token_id": 0,
+  "dropout_rate": 0.1,
+  "eos_token_id": 1,
+  "feed_forward_proj": "gated-gelu",
+  "initializer_factor": 1.0,
+  "is_encoder_decoder": true,
+  "layer_norm_epsilon": 1e-06,
+  "model_type": "t5",
+  "num_decoder_layers": 24,
+  "num_heads": 16,
+  "num_layers": 24,
+  "output_past": true,
+  "pad_token_id": 0,
+  "relative_attention_max_distance": 128,
+  "relative_attention_num_buckets": 32,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.18.0.dev0",
+  "use_cache": true,
+  "vocab_size": 32128
+}
+
+loading file https://huggingface.co/google/t5-v1_1-large/resolve/main/spiece.model from cache at /home/tzc/.cache/huggingface/transformers/f5f3b2f84d264d162cdb138f3b0d3ad72f4ab3308b741640e2040df366a0ddbe.3b69006860e7b5d0a63ffdddc01ddcd6b7c318a6f4fd793596552c741734c62d
+loading file https://huggingface.co/google/t5-v1_1-large/resolve/main/tokenizer.json from cache at None
+loading file https://huggingface.co/google/t5-v1_1-large/resolve/main/added_tokens.json from cache at None
+loading file https://huggingface.co/google/t5-v1_1-large/resolve/main/special_tokens_map.json from cache at /home/tzc/.cache/huggingface/transformers/28fa6bb11d5fd637c4b67b299f5616169510dac4cd181efc8f70674c7872c874.c94798918c92ded6aeef2d2f0e666d2cc4145eca1aa6e1336fde07f2e13e2f46
+loading file https://huggingface.co/google/t5-v1_1-large/resolve/main/tokenizer_config.json from cache at /home/tzc/.cache/huggingface/transformers/fc435b5ebdd9b87b69afea8832f54a9e29e9ef554dc8002d9d9c0122fe4456f2.b1a2e3c152960fdc6b3d16520fa9f1591e2818d7dd66946c219e651f224894bf
+loading configuration file https://huggingface.co/google/t5-v1_1-large/resolve/main/config.json from cache at /home/tzc/.cache/huggingface/transformers/f3629832deaa00e53f3ef405be5a19dbf5688115a8e99e7aa69689f44bdb2174.546c1aed6c9a26bb0c3e81b10b9a041fa66653af459263294758f5b2a5d05935
+Model config T5Config {
+  "_name_or_path": "google/t5-v1_1-large",
+  "architectures": [
+    "T5ForConditionalGeneration"
+  ],
+  "d_ff": 2816,
+  "d_kv": 64,
+  "d_model": 1024,
+  "decoder_start_token_id": 0,
+  "dropout_rate": 0.1,
+  "eos_token_id": 1,
+  "feed_forward_proj": "gated-gelu",
+  "initializer_factor": 1.0,
+  "is_encoder_decoder": true,
+  "layer_norm_epsilon": 1e-06,
+  "model_type": "t5",
+  "num_decoder_layers": 24,
+  "num_heads": 16,
+  "num_layers": 24,
+  "output_past": true,
+  "pad_token_id": 0,
+  "relative_attention_max_distance": 128,
+  "relative_attention_num_buckets": 32,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.18.0.dev0",
+  "use_cache": true,
+  "vocab_size": 32128
+}
+
+loading configuration file https://huggingface.co/google/t5-v1_1-large/resolve/main/config.json from cache at /home/tzc/.cache/huggingface/transformers/f3629832deaa00e53f3ef405be5a19dbf5688115a8e99e7aa69689f44bdb2174.546c1aed6c9a26bb0c3e81b10b9a041fa66653af459263294758f5b2a5d05935
+Model config T5Config {
+  "_name_or_path": "google/t5-v1_1-large",
+  "architectures": [
+    "T5ForConditionalGeneration"
+  ],
+  "d_ff": 2816,
+  "d_kv": 64,
+  "d_model": 1024,
+  "decoder_start_token_id": 0,
+  "dropout_rate": 0.1,
+  "eos_token_id": 1,
+  "feed_forward_proj": "gated-gelu",
+  "initializer_factor": 1.0,
+  "is_encoder_decoder": true,
+  "layer_norm_epsilon": 1e-06,
+  "model_type": "t5",
+  "num_decoder_layers": 24,
+  "num_heads": 16,
+  "num_layers": 24,
+  "output_past": true,
+  "pad_token_id": 0,
+  "relative_attention_max_distance": 128,
+  "relative_attention_num_buckets": 32,
+  "tie_word_embeddings": false,
+  "transformers_version": "4.18.0.dev0",
+  "use_cache": true,
+  "vocab_size": 32128
+}
+
+04/02/2022 21:31:44 - WARNING - datasets.builder - Using custom data configuration default-e7acfd7003f5b189
+04/02/2022 21:31:44 - WARNING - datasets.builder - Reusing dataset json (/data/tzc/huggingface/json/default-e7acfd7003f5b189/0.0.0/ac0ca5f5289a6cf108e706efcf040422dbbfa8e658dee6a819f20d76bb84d26b)
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+ 50%|█████     | 1/2 [37:21<37:21, 2241.61s/it]
+100%|██████████| 2/2 [37:26<00:00, 926.17s/it] 
+100%|██████████| 2/2 [37:26<00:00, 1123.49s/it]
+04/02/2022 22:09:11 - INFO - __main__ - loading finish, loading time is 2257.0399231910706
+begin to tokenize dataset

@@ -1,0 +1,2 @@
+DEVICES=0,1,2,3,4,5,6,7
+CUDA_VISIBLE_DEVICES=${DEVICES} python -u run_clm_no_trainer.py --model_name_or_path gpt2 --train_file /data0/data/fkq/dataset/roc/train.txt --validation_file /data0/data/fkq/dataset/roc/val.txt --do_train --do_eval --output_dir /data0/data/fkq/result/finetune_data_2 --overwrite_output_dir True --num_train_epochs 25 --per_device_train_batch_size 16 --per_device_eval_batch_size 16 --learning_rate 1e-4 --evaluation_strategy epoch --save_strategy epoch

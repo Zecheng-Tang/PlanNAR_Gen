@@ -1,0 +1,2 @@
+DEVICES=0,1,2,3,4,5,6,7
+CUDA_VISIBLE_DEVICES=${DEVICES} python generation.py --model_type gpt2 --tokenizer_name_or_path /data0/data/fkq/result/finetune_data_2/checkpoint-17275 --model_name_or_path /data0/data/fkq/result/finetune_data_2/checkpoint-4146  --prompt_file /data0/data/fkq/dataset/roc/test.source --length 100 --output_file /data0/data/fkq/result/gpt2_early_exit_17275.txt
